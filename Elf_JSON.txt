@@ -1,0 +1,80 @@
+{
+	"name": "Elf",
+	"entries": [
+	  {
+	    "entries" : [
+  	      "<strong>Creature Type</strong>: Huminoid ",
+  	      "<strong>Size</strong>: Medium (about 5-7 feet tall)",
+  	      "<strong>Speed</strong>: 30 feet"
+	      ]
+	  },
+		{
+			"type": "entries",
+			"entries": [
+			  "<strong> Darkvision. </strong> You have {@sense Darkvision|XPHB} with a range of 60 feet."
+			]
+		},
+		{
+			"type": "entries",
+			"entries": [
+			  "<strong> Elven Lineage. </strong> You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.",
+				"When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+				"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+				{
+					"type": "table",
+					"caption": "Elven Lineages",
+					"colLabels": [
+						"Lineage",
+						"Level 1",
+						"Level 3",
+						"Level 5"
+					],
+					"colStyles": [
+						"col-2",
+						"col-6",
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Okrien | Ocean Elf (Mandria)",
+              "You can breathe underwater, and you have resistance to cold damage. You also know the {@spell Shape Water|XGE} cantrip.",
+                "{@spell Create or Destroy Water|XPHB}",
+                "{@spell Prayer of Healing|XPHB}"
+            ],
+            [
+              "Dulkės | Dust Elf (Calcifer)",
+              "You have resistance to fire damage. You also know the {@spell Produce Flame|XPHB} cantrip.",
+              "{@spell Faerie Fire|XPHB}",
+              "{@spell Continual Flame|XPHB}"
+            ],
+            [
+              "Dalia | Fated Elf (Ozara)",
+              "Your Speed increases to 35 feet. You also know the {@spell Guidance|XPHB} cantrip.",
+              "{@spell Comprehend Languages|XPHB}",
+              "{@spell Augury|XPHB}"
+           ],
+           [
+              "Mirtis  | Death Elf (Gedelra)",
+              "Your trance is unique, and allows you to see into the Ethereal Plane during your long rests. You also know the {@spell Spare the Dying|XPHB} cantrip.",
+              "{@spell Cause Fear|XGE}",
+              "{@spell Death Armor|FRHoF}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"entries": [
+			  "<strong> Keen Senses. </strong> You have proficiency in the {@skill Insight|XPHB}, {@skill Perception|XPHB}, or {@skill Survival|XPHB} skill."
+			]
+		},
+		{
+			"type": "entries",
+			"entries": [
+				"<strong> Trance. </strong> You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+			]
+		}
+	]
+}
